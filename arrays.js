@@ -23,8 +23,16 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 
 //console.log(destructivelyAddElementToBeginningOfArray(["k","g","f"], "hello"))
 
+function addElementToEndOfArray(array, element){
+  var n = array;
+  n.push(element)
+  return n
+}
 
-
+function destructivelyAddElementToEndOfArray(array, element){
+  array.push(element)
+  return array
+}
 
 
 
