@@ -18,7 +18,7 @@ function destructivelyAddElementToBeginningOfArray(array, x){
   return array
 }
 
-n = ["a","b","c"]
-console.log(addElementToBeginningOfArray([1,2,3,4], 'foo'))
+//n = ["a","b","c"]
+//console.log(addElementToBeginningOfArray([1,2,3,4], 'foo'))
 
 //console.log(destructivelyAddElementToBeginningOfArray(["k","g","f"], "hello"))
