@@ -18,4 +18,4 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 }
 
 n = ["a","b","c"]
-console.log(addElementToBeginningOfArray(n, 'foo'))
+console.log(addElementToBeginningOfArray([1,2,3,4], 'foo'))
