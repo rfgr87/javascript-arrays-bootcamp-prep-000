@@ -32,7 +32,7 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 
-function accesElementInArray(array, index){
+function accessElementInArray(array, index){
   n = array[index]
   return n
 }
