@@ -8,9 +8,8 @@ var ingredient6 = "garlic"
 var chocolateBars = ["snickers", "hundred grand", "kitka", "skittles"];
 
 function addElementToBeginningOfArray(array, x){
-  var n = array
-  n.unshift(x)
-  return n
+  array = array.unshift(x)
+  return array
 }
 
 function destructivelyAddElementToBeginningOfArray(array, x){
@@ -19,7 +18,7 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 }
 
 
-console.log(addElementToBeginningOfArray([1], 'foo'))
+//console.log(addElementToBeginningOfArray([1], 'foo'))
 
 //console.log(destructivelyAddElementToBeginningOfArray(["k","g","f"], "hello"))
 
@@ -38,4 +37,19 @@ function accesElementInArray(array, index){
   return array[index]
 }
 
-function destructivelyRemoveElementFromBeginning
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
+
+function removeElementFromBeginningOfArray(array){
+  array2 = array
+  array2 = array2.slice(1)
+  return array2
+}
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop()
+  return array
+}
+
