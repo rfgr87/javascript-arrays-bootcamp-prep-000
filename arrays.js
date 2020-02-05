@@ -22,3 +22,9 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 //console.log(addElementToBeginningOfArray([1,2,3,4], 'foo'))
 
 //console.log(destructivelyAddElementToBeginningOfArray(["k","g","f"], "hello"))
+
+
+
+
+
+
