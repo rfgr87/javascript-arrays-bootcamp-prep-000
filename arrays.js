@@ -9,7 +9,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitka", "skittles"];
 
 function addElementToBeginningOfArray(array, x){
   const array2 = [x,...array]
-  return array
+  return array2
 }
 
 function destructivelyAddElementToBeginningOfArray(array, x){
