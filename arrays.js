@@ -23,7 +23,7 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 //console.log(destructivelyAddElementToBeginningOfArray(["k","g","f"], "hello"))
 
 function addElementToEndOfArray(array, element){
-  const array2 = [...array, x];
+  const array2 = [...array, element];
   return array2
 }
 
