@@ -13,8 +13,8 @@ function addElementToBeginningOfArray(array, x){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, x){
-  array = array.unshift(x)
-  return array.values()
+  array.unshift(x)
+  return array
 }
 
 //n = ["a","b","c"]
