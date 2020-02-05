@@ -17,4 +17,4 @@ function destructivelyAddElementToBeginningOfArray(array, x){
   return array
 }
 
-console.log(addElementToBeginningOfArray([1,2], 'foo')
+console.log(addElementToBeginningOfArray([1,2], 'foo'))
