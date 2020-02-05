@@ -17,5 +17,5 @@ function destructivelyAddElementToBeginningOfArray(array, x){
   return array.values()
 }
 
-
+n = ["a","b","c"]
 console.log(addElementToBeginningOfArray(n, 'foo'))
