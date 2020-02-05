@@ -17,4 +17,6 @@ function destructivelyAddElementToBeginningOfArray(array, x){
 }
 
 n = [1,2,3,4]
-console.log(addElementToBeginningOfArray(n, 'foo'))
+console.log(n.unshift('boo'))
+
+//console.log(addElementToBeginningOfArray(n, 'foo'))
